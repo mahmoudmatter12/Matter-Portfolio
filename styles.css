@@ -24,7 +24,6 @@ body {
 }
 header {
   background-color: var(--color1);
-  padding: 10px;
   width: auto;
   position: fixed;
   width: 100%;
@@ -38,8 +37,10 @@ header {
   gap: 9px;
   display: flex;
   flex-wrap: wrap;
-
   /* visibility: hidden; */
+}
+header .logo h1 a{
+  padding: 50px;
 }
 header div a {
   text-decoration: none;
@@ -51,8 +52,8 @@ header div a {
 }
 
 header div a:hover {
-  background-color: var(--color1);
-  color: var(--color1);
+  background-color: var(--color2);
+  color: var(--color0);
   transition: color 0.2s ease;
 }
 
@@ -86,7 +87,7 @@ nav div p {
 }
 
 #about {
-  background-color: var(--color1);
+  background-color: var(--color2);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -174,7 +175,7 @@ nav div p {
   transition: background-color 0.3s ease;
   cursor: pointer;
   &:hover {
-    background-color: var(--color1);
+    background-color: var(--color5);
   }
 }
 .box h3 {
@@ -182,7 +183,7 @@ nav div p {
 }
 
 #projects {
-  background-color: var(--color1);
+  background-color: var(--color2);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -214,10 +215,18 @@ nav div p {
 }
 
 #projects .grid-contanier-projects .box-projects {
-  /* border: red solid 5px; */
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color1);
+  padding: 20px;
+  border-radius: 5px;
   transition: background-color 0.3s ease;
   cursor: pointer;
+  &:hover {
+    background-color: var(--color5);
+  }
 }
 
 #projects .grid-contanier-projects .box-projects h3 {
@@ -248,8 +257,25 @@ nav div p {
   font-size: 1.5rem;
 }
 
+#volunteering .box-vol{
+  /* border: red 4px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color2);
+  padding: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  &:hover {
+    background-color: var(--color5);
+  }
+}
+
+
 #resume {
-  background-color: var(--color1);
+  background-color: var(--color2);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -268,7 +294,7 @@ nav div p {
 }
 #resume button {
   padding: 10px 20px;
-  background-color: var(--color2);
+  background-color: var(--color1);
   color: var(--color0);
   border: none;
   cursor: pointer;
@@ -278,9 +304,9 @@ nav div p {
   margin-right: 20px;
   margin-left: 20px;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgb(36, 149, 224);
+  box-shadow: 5px 5px 5px var(--color3);
   &:hover {
-    background-color: var(--color6);
+    background-color: var(--color5);
   }
 }
 
@@ -347,7 +373,7 @@ nav div p {
 }
 
 .footer {
-  background-color: var(--color1);
+  background-color: var(--color2);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -374,13 +400,16 @@ nav div p {
 
 @media screen and (max-width: 900px) {
   .links {
-    flex-direction: column;
+    flex-direction: row;
     border: 1px solid var(--color0);
     border-radius: 5px;
   }
   header .logo h1 {
     width: 100%;
     text-align: center;
+  }
+  header .logo h1 a{
+    padding: 20px;
   }
   header {
     position: static;
