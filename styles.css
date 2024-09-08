@@ -26,14 +26,17 @@ header {
   width: auto;
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
+
 .links {
-  margin: 3px;
-  padding: 4px;
+  margin: 1em;
+  padding: 2em;
   display: flex;
   gap: 9px;
   display: flex;
   flex-wrap: wrap;
+
   /* visibility: hidden; */
 }
 header div a {
@@ -354,16 +357,16 @@ nav div p {
   font-size: 1.5rem;
 }
 
-.footer i{
-    margin-right: 10px;
-    font-size: 30px;
-    transition: color 0.3s ease;
-    &:hover {
-      color: var(--color2);
-    }
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
+.footer i {
+  margin-right: 10px;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  &:hover {
+    color: var(--color2);
+  }
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
