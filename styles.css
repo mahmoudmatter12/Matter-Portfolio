@@ -382,12 +382,12 @@ nav div p {
   header {
     position: static;
   }
-  #home{
+  #home {
     height: fit-content;
-    width: fit-content;
+    width: 100%;
   }
   #home h1 {
-    font-size: 4rem;
+    font-size: rem;
     text-align: center;
   }
   .skills {
