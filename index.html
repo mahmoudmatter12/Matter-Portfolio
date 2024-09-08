@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="martial/ghost.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Mahmoud Gamal</a>
+        <nav class="navbar">
+            <a class="active" href="#" id="openHomeModal">Home</a>
+            <a href="#" id="openAboutModal">About</a>
+            <a href="#" id="openServicesModal">Services</a>
+            <a href="#" id="openPortfolioModal">Portfolio</a>
+            <a href="#" id="openContactModal">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Modals -->
+    <!-- <div id="homeModal" class="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Home Content</p>
+        </div>
+    </div> -->
+
+    <div id="aboutModal" class="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <!-- all copy rights are saved -->
+            <p>&copy; 2024 All rights reserved.</p>
+        </div>
+    </div>
+
+    <div id="servicesModal" class="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="services">
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>UI/UX Design</li>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolioModal" class="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Matter's CV and resume</p>
+            <!-- Add buttons for Download and Preview with classes -->
+            <div class="modal-actions">
+                <button id="downloadCvBtn" class="action-btn">Download CV</button>
+                <button id="previewCvBtn" class="action-btn">Preview CV</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal1">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Contact Content</p>
+        </div>
+    </div>
+
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Mahmoud Gamal </h1>
+            <h3> Front-End Developer & UI/UX Designer</h3>
+            <p>I am a passionate Front-End Developer and UI/UX Designer, dedicated to creating visually appealing and
+                user-friendly digital experiences. With a solid foundation in programming and design principles, I
+                specialize in translating complex ideas into intuitive and engaging interfaces. My experience in
+                managing platforms and social media, combined with my technical expertise in tools like Git, allows me
+                to craft responsive and efficient web applications. I am committed to continuous learning and
+                innovation, always striving to enhance the user experience through thoughtful design and robust
+                development practices.</p>
+
+
+            <div class="btn-box">
+                <a href="#" id="openModalBtn1">Hire Me</a>
+                <a href="#" id="openModalBtn2">View My Work</a>
+                <a href="#" id="openModalBtn3">Contact Me</a>
+            </div>
+
+            <!-- Modal 1 -->
+            <div id="myModal1" class="modal1">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Hire Me Content</p>
+                </div>
+            </div>
+
+            <!-- Modal 2 -->
+            <div id="myModal2" class="modal1">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>View My Work Content</p>
+                </div>
+            </div>
+
+            <!-- Modal 3 -->
+            <div id="myModal3" class="modal1">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Contact Me Content</p>
+                </div>
+            </div>
+            <!-- ! -->
+
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/mahmoud.materii" target="_blank"><i
+                    class='bx bxl-facebook-circle'></i></a>
+            <a href="https://www.linkedin.com/in/mahmoudmatter/" target="_blank"><i
+                    class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/mahmoudmatter12" target="_blank"><i class='bx bxl-github'></i></a>
+        </div>
+        <span class="home-imgHover">
+            <img src="martial/acpc-removebg-preview.png" alt="">
+        </span>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
