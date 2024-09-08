@@ -19,6 +19,7 @@ header {
 body {
   margin: 0;
   padding: 0px;
+  background-color: var(--color1);
   scroll-behavior: smooth;
 }
 header {
@@ -50,7 +51,7 @@ header div a {
 }
 
 header div a:hover {
-  background-color: var(--color2);
+  background-color: var(--color1);
   color: var(--color1);
   transition: color 0.2s ease;
 }
@@ -65,7 +66,7 @@ nav {
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   /* background-position: center; */
-  background-color: var(--color6);
+  background-color: var(--color1);
   color: var(--color0);
   display: flex;
   flex-direction: column;
@@ -85,7 +86,7 @@ nav div p {
 }
 
 #about {
-  background-color: var(--color2);
+  background-color: var(--color1);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -130,7 +131,7 @@ nav div p {
 }
 
 .skills {
-  background-color: var(--color4);
+  background-color: var(--color1);
   color: var(--color0);
   /* flex-direction: column; */
   height: 56rem;
@@ -173,7 +174,7 @@ nav div p {
   transition: background-color 0.3s ease;
   cursor: pointer;
   &:hover {
-    background-color: var(--color6);
+    background-color: var(--color1);
   }
 }
 .box h3 {
@@ -181,7 +182,7 @@ nav div p {
 }
 
 #projects {
-  background-color: var(--color7);
+  background-color: var(--color1);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -227,7 +228,7 @@ nav div p {
 }
 
 #volunteering {
-  background-color: var(--color5);
+  background-color: var(--color1);
   color: var(--color0);
   text-align: center;
   display: flex;
@@ -284,13 +285,14 @@ nav div p {
 }
 
 #contact {
-  background-color: var(--color4);
+  background-color: var(--color1);
   color: var(--color0);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 60rem;
+  width: 100%;
 }
 
 #contact h2 {
@@ -377,14 +379,14 @@ nav div p {
     border-radius: 5px;
   }
   header .logo h1 {
-    padding: 30px;
+    width: 100%;
+    text-align: center;
   }
   header {
     position: static;
   }
   #home {
     height: fit-content;
-    width: 100%;
   }
   #home h1 {
     font-size: rem;
