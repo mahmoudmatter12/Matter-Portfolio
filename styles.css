@@ -19,6 +19,7 @@ header {
 body {
   margin: 0;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 header {
   background-color: var(--color1);
@@ -30,8 +31,8 @@ header {
 }
 
 .links {
-  margin: 1em;
-  padding: 2em;
+  margin: 10px;
+  padding: 10px;
   display: flex;
   gap: 9px;
   display: flex;
@@ -377,6 +378,17 @@ nav div p {
   }
   header .logo h1 {
     padding: 30px;
+  }
+  header {
+    position: static;
+  }
+  #home{
+    height: fit-content;
+    width: fit-content;
+  }
+  #home h1 {
+    font-size: 4rem;
+    text-align: center;
   }
   .skills {
     height: fit-content;
