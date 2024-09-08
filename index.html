@@ -4,130 +4,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mahmoud Gamal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="martial/ghost.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="martial/ghost.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
+<header>
+    <div class="logo">
+        <h1><a>Mahmoud Matter</a></h1>
+    </div>
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#volunteering">Volunteering</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+</header>
+
+<nav class="home" id="home">
+    <div class="home-content">
+        <h1>Hey, I'm Mahmoud Matter</h1>
+        <p>A Web Developer & UI/UX Designer</p>
+    </div>
+</nav>
+
+<section id="about">
+    <div>
+        <h2>About Me</h2>
+    </div>
+    <div class="grid-contanier-about">
+        <div class="box-img">
+            <img src="/Proto/martial/acpc.jpg">
+        </div>
+        <div class="box-p">
+            <p>
+                I'm a passionate Web Developer and UI/UX Designer. I have a strong foundation in HTML, CSS, and
+                JavaScript. My goal is to create engaging and user-friendly websites that meet the needs of my clients.
+                I am always eager to learn new skills and collaborate with others to create innovative solutions.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="skills-conten">
+        <h3>Skills</h3>
+    </div>
+    <div class="grid-contanier">
+        <div class="box">
+            <h3>HTML5</h3>
+            <img src="/Proto/martial/html-5.png">
+        </div>
+        <div class="box">
+            <h3>CSS3</h3>
+            <img src="/Proto/martial/css-3.png">
+        </div>
+        <div class="box">
+            <h3>JavaScript</h3>
+            <img src="/Proto/martial/java-script.png">
+        </div>
+        <div class="box">
+            <h3>React</h3>
+            <img src="/Proto/martial/react.png">
+        </div>
+        <div class="box">
+            <h3>Cpp</h3>
+            <img src="/Proto/martial/c-.png">
+        </div>
+        <div class="box">
+            <h3>Python</h3>
+            <img src="/Proto/martial/python.png">
+        </div>
+        <div class="box">
+            <h3>VSC-TOOL</h3>
+            <img src="/Proto/martial/visual-studio.png">
+        </div>
+        <div class="box">
+            <h3>GIT-TOOL</h3>
+            <img src="/Proto/martial/git.png">
+        </div>
+    </div>
+</section>
+
+
+<section id="projects">
+    <div>
+        <h2>Projects</h2>
+    </div>
+    <div class="grid-contanier-projects">
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 1</h3>
+            <p>Control Management System</p>
+        </div>
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 2</h3>
+            <p>Project Description</p>
+        </div>
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 3</h3>
+            <p>Project Description</p>
+        </div>
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 4</h3>
+            <p>Project Description</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="volunteering">
+    <div>
+        <h2>Volunteering</h2>
+    </div>
+    <div class="grid-contanier-projects">
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 1</h3>
+            <p>Volunteering Description</p>
+        </div>
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 2</h3>
+            <p>Volunteering Description</p>
+        </div>
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 3</h3>
+            <p>Volunteering Description</p>
+        </div>
+        <div class="box-projects">
+            <img src="/Proto/martial/css-3.png">
+            <h3>Project 4</h3>
+            <p>Volunteering Description</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="resume">
+    <div>
+        <h2>Resume</h2>
+        <p>Wanna see my <strong>CV</strong> You can Download it form here </p>
+    </div>
+    <div class="resume-conten">
+        <div class="buttons">
+            <button id="downloadCvBtn" class="action-btn">Download CV</button>
+            <button id="previewCvBtn" class="action-btn">Preview CV</button>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact">
+    <div></div>
+    <h2>Contact Me</h2>
+    </div>
+    <div class="contact-conten">
+        <form>
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+            </div>
+            <div class="buttons">
+                <button type="submit" class="action-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+
+<footer class="footer">
+    <p>&copy; 2023 Mahmoud Matter. All rights reserved.</p>
+    <div class="social-media">
+        <a href="https://www.facebook.com/mahmoud.materii" target="_blank"></a>
+        <i class='bx bxl-facebook-circle'></i></a>
+        <a href="https://www.linkedin.com/in/mahmoudmatter/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/mahmoudmatter12" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+</footer>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">Mahmoud Gamal</a>
-        <nav class="navbar">
-            <a class="active" href="#" id="openHomeModal">Home</a>
-            <a href="#" id="openAboutModal">About</a>
-            <a href="#" id="openServicesModal">Services</a>
-            <a href="#" id="openPortfolioModal">Portfolio</a>
-            <a href="#" id="openContactModal">Contact</a>
-        </nav>
-    </header>
-
-    <!-- Modals -->
-    <!-- <div id="homeModal" class="modal1">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Home Content</p>
-        </div>
-    </div> -->
-
-    <div id="aboutModal" class="modal1">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <!-- all copy rights are saved -->
-            <p>&copy; 2024 All rights reserved.</p>
-        </div>
-    </div>
-
-    <div id="servicesModal" class="modal1">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div class="services">
-                <li>Web Development</li>
-                <li>Mobile App Development</li>
-                <li>UI/UX Design</li>
-            </div>
-        </div>
-    </div>
-
-    <div id="portfolioModal" class="modal1">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Matter's CV and resume</p>
-            <!-- Add buttons for Download and Preview with classes -->
-            <div class="modal-actions">
-                <button id="downloadCvBtn" class="action-btn">Download CV</button>
-                <button id="previewCvBtn" class="action-btn">Preview CV</button>
-            </div>
-        </div>
-    </div>
-
-    <div id="contactModal" class="modal1">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <p>Contact Content</p>
-        </div>
-    </div>
-
-
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi, I'm Mahmoud Gamal </h1>
-            <h3> Front-End Developer & UI/UX Designer</h3>
-            <p>I am a passionate Front-End Developer and UI/UX Designer, dedicated to creating visually appealing and
-                user-friendly digital experiences. With a solid foundation in programming and design principles, I
-                specialize in translating complex ideas into intuitive and engaging interfaces. My experience in
-                managing platforms and social media, combined with my technical expertise in tools like Git, allows me
-                to craft responsive and efficient web applications. I am committed to continuous learning and
-                innovation, always striving to enhance the user experience through thoughtful design and robust
-                development practices.</p>
-
-
-            <div class="btn-box">
-                <a href="#" id="openModalBtn1">Hire Me</a>
-                <a href="#" id="openModalBtn2">View My Work</a>
-                <a href="#" id="openModalBtn3">Contact Me</a>
-            </div>
-
-            <!-- Modal 1 -->
-            <div id="myModal1" class="modal1">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>Hire Me Content</p>
-                </div>
-            </div>
-
-            <!-- Modal 2 -->
-            <div id="myModal2" class="modal1">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>View My Work Content</p>
-                </div>
-            </div>
-
-            <!-- Modal 3 -->
-            <div id="myModal3" class="modal1">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>Contact Me Content</p>
-                </div>
-            </div>
-            <!-- ! -->
-
-        </div>
-        <div class="home-sci">
-            <a href="https://www.facebook.com/mahmoud.materii" target="_blank"><i
-                    class='bx bxl-facebook-circle'></i></a>
-            <a href="https://www.linkedin.com/in/mahmoudmatter/" target="_blank"><i
-                    class='bx bxl-linkedin-square'></i></a>
-            <a href="https://github.com/mahmoudmatter12" target="_blank"><i class='bx bxl-github'></i></a>
-        </div>
-        <span class="home-imgHover">
-            <img src="martial/acpc-removebg-preview.png" alt="">
-        </span>
-    </section>
     <script type="text/javascript" src="script.js"></script>
 </body>
 
