@@ -10,11 +10,6 @@
   --color6: #002673;
   --color7: #085866;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 body {
   margin: 0;
@@ -28,6 +23,9 @@ header {
   position: fixed;
   width: 100%;
   z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .links {
@@ -58,7 +56,6 @@ header {
   height: 40px;
   cursor: pointer;
   margin-right: 20px;
-
 }
 .sidenav a {
   padding: 8px 8px 5px;
@@ -133,6 +130,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 56rem;
+  padding-top: 70px;
 }
 
 nav div h1 {
@@ -521,9 +519,6 @@ nav div p {
 
   header .logo h1 a {
     padding: 20px;
-  }
-  header {
-    position: static;
   }
   #home,
   #about,
