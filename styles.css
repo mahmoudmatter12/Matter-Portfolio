@@ -40,6 +40,53 @@ header {
   /* visibility: hidden; */
 }
 
+.sidenav {
+  height: fit-content; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 40px; /* Stay at the top */
+  right: 0;
+  background-color: var(--color4); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sid-btn img {
+  display: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 20px;
+
+}
+.sidenav a {
+  padding: 8px 8px 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--color0);
+  display: block;
+  grid-template-columns: auto auto auto;
+  transition: 0.3s;
+}
+
+.links-2 {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 9px;
+  flex-direction: column;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 5;
+  right: 20px;
+  font-size: 36px;
+  margin-left: 50px;
+  background-color: transparent;
+}
+
 header div h1 {
   color: var(--color0);
   font-size: 2rem;
@@ -446,6 +493,19 @@ nav div p {
     border-radius: 5px;
     width: fit-content;
     height: fit-content;
+  }
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  .links {
+    display: none;
+  }
+  .sid-btn img{
+    display:flex;
   }
 
   nav div h1 {

@@ -10,3 +10,12 @@ document.getElementById("previewCvBtn").onclick = function () {
     window.open('https://drive.google.com/file/d/1Af4iKhw-T7SWbZ3j7x_wZ9ygPgUyYp4W/preview', '_blank');
 }
 
+function openNav() {
+    document.getElementById("mySidenav").style.width = "210px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
+
