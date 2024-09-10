@@ -202,7 +202,7 @@ nav div p {
   height: auto;
   object-fit: cover;
   /* border: #091540 5px solid; */
-  border-radius: 5px;
+  border-radius: 30px;
 }
 
 #about .box-img-2 {
