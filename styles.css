@@ -142,6 +142,9 @@ nav div h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  /* border: 5px solid red; */
+  margin-top:10px
+
 }
 
 nav div div img {
